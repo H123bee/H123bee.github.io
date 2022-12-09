@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>武昌首义学院——原华中科技大学武昌分校</title>
+     
+     <style type="text/css">
+
+        body{
+        	margin: 0px;
+        	padding: 0px;
+        }
+     	#top{
+     		width: 100%;
+     		height: 38px;
+     		
+     		background-color: #003e84;
+     	}
+
+     	#top-font{
+     		 margin-left: 140px;
+     		 padding-top: 6px;
+
+     	}
+
+     	.font{
+     		margin-left: 14px;
+     	}
+     	a{
+     			color: white;
+     			text-decoration: none;
+     	}
+     	a:active{
+     		color: green;
+     	}
+
+     	#search{
+     		position: absolute;
+     		right: 360px;
+     		top: 6px;
+     		width: 220px;
+     		height: 25px;
+     		border-radius: 20px;
+     	}
+
+     	.font-right{
+     		float: right;
+     		margin-right:65px;
+     		margin-top:-20px;
+     	}
+
+
+     	#top-2{
+     		width: 80px;
+     		height: 90px;
+     		/*background-color: red;*/
+     		margin-left: 140px;
+     		margin-top: 20px;
+     	}
+
+     	  #daohang{
+            list-style: none;
+            position: absolute;
+			top: 68px;
+          	right: 100px;
+			}
+
+           #daohang>li{
+         		float: left;
+           /*position: relative;
+           right:20px;*/
+          	  margin:20px;
+          	 
+       }
+
+
+          
+
+       #daohang a{
+              width: 140px;
+              height: 50px;
+              display: block;
+              color: black;
+             text-decoration: none;
+       }
+
+
+       #daohang .er{
+         	display: none;
+        margin-top: -10px;
+        margin-left: -20px;
+        text-align: center;
+       }
+      
+
+         #daohang .er a{
+         	  width: 120px;
+         	  height: 20px;
+         	 /* margin-top: 10px;
+         	  margin-left: 30px;*/
+         	  padding: 10px;
+         	  border-bottom:1px white solid;
+         	  background-color: rgba(173,216,230,0.5);
+       }
+      
+       #daohang .er a:hover{
+       	  background-color: green;
+       }
+      #daohang  .f1>a{
+      	  margin-left: 30px;
+      }
+       #daohang li{
+       	   margin-right: -80px;
+       }
+      /*  
+       }
+        
+       #daohang>li{
+           width: 80px;
+           height: 10px;
+           text-align: center;
+           background-color: red;
+       }
+*/
+       #daohang li:hover .er{
+                display: block;
+       }
+
+
+       #bottom-5{
+            position: absolute;
+            left: 200px;
+            top: 600px;
+
+       }
+
+      #span2{
+           margin-left: 540px;
+       }
+
+       #span1,#span2,#span3{
+        color: blue;
+        font-family: "楷体";
+        font-size: 25px;
+        font-weight: bolder;
+       }
+
+         #bottom-5-left a{
+            color: red;
+            font-size: 18px;
+       }
+       .wen{
+          position: relative;
+          top: 30px;
+       }
+
+       .xiao{
+          background-color: #32639d;
+          width: 80px;
+          height: 40px;
+          text-align: center;
+          color: white;
+          font-family: "黑体";
+          font-size: 30px;
+       }
+       
+
+       #xiaotubiao{
+        margin-left: 420px;
+        margin-top: -340px;
+
+       }
+
+       .xiao2{
+          width: 80px;
+          height: 40px;
+          text-align: center;
+          background-color: #e3e3e3;
+       }
+       .xiao-under-tu{
+              width: 120px;
+              height: 80px;
+             /* margin-top: -80px;
+              margin-left: 80px;*/
+              margin-left: 80px;
+              position: absolute;
+              top: 0px;
+       }
+        /*#xiao-under-tu{
+             position: absolute;
+             top: 50px;
+             left: 500px;
+        }
+       */
+       #tu1,#tu2,#tu3{
+         margin-left: 420px;
+          position: relative;
+          top: -348px;
+          margin-bottom: 20px;
+          border:1px #f1f1f1 solid;
+       }
+
+        .wenzi>a,.wenzi2>a{
+           position: absolute;
+           left: 203px;
+           color: green;
+           top: -10px;
+
+       }
+       .wenzi{
+        font-size: 17px;
+        font-weight: bold;
+       }
+       .wenzi2{
+            font-size: 10px;
+            margin-top: -80px;
+            position: absolute;
+            left: 200px;
+       }
+
+       .Hei{
+          position: absolute;
+          top:28px;
+          width: 150px;
+          height: 1.2px;
+          background-color: black;
+       }
+
+       #bottom-5-right{
+         position: absolute;
+         right: -350px;
+         top: 0px;
+       }
+
+       #news{
+        background-color: #f1f1f1;
+        height: 390px;
+        width: 260px;
+       }
+       #news a{
+          color: black;
+       }
+
+       .date{
+           color: black;
+           font-size: 15px;
+       }
+
+       #news p{
+          border-bottom: 1px white solid;
+       }
+
+       #hezi2{
+        position: relative;
+        left: 1188px;
+        top: -800px;
+       }
+
+       #hezi{
+        position: fixed;
+       }
+
+
+       #lunbo{
+         width: 100%;
+         height: 400px;
+        
+       }
+
+       #xc li{
+             opacity: 0;
+             position:absolute;
+             top:170px;
+             left: 0px;
+             list-style: none;
+            transition: opacity 2s;
+       }
+       #xc img{
+          width: 100%;
+          height: 400px;
+
+       }
+
+       #left,#right{
+         font-size: 60px;  
+         color: #f1f1f1; 
+         
+
+       }
+       #left{
+        float: left;
+        position: absolute;
+        top: 280px;
+        left:20px;
+        padding-left: 20px;
+        background-color: rgba(0 0 0 0.1);
+        width: 50px;
+        display: block;
+       }
+
+       #right{
+        float: right;
+        position: absolute;
+        top: 280px;
+        right: 20px;
+        padding-left: 20px;
+        background-color: rgba(0 0 0 0.1);
+        width: 50px;
+        display: block;
+       }
+      #right:active{
+           color: green;
+       }
+       #left:active{
+           color: green;
+       }
+       #index li{
+           list-style: none;
+           background-color:white;
+           width: 20px;
+           border-radius: 10px;
+           text-align: center;
+           float: left;
+           margin-left: 13px;
+           display: block;
+       }
+       #index-div{
+           position: absolute;
+           left: 1000px;
+           top: 520px;
+       }
+
+       /*#indexXuan{
+         display: block;
+       }*/
+
+       #erwei:active{
+          width: 300px;
+          height: 300px;
+          position: absolute;
+          right: 500px;
+          top: -500px;
+       }
+       #erwei{
+        width: 120px; height: 120px
+       }
+     </style>
+
+     <script type="text/javascript">
+
+        window.onload=function(){
+         let i=document.getElementById('xc').children;
+         let right=document.getElementById('right');
+         let left=document.getElementById('left');
+         let index=document.getElementById('index').children;
+         let count=0
+         let sum=i.length;
+          index[count].style.backgroundColor="yellow";
+          i[count].style.opacity=1;
+            right.onclick=function(){
+                let next=count===sum-1?0:count+1;
+                i[count].style.opacity=0;
+                index[count].style.backgroundColor="white";
+                i[next].style.opacity=1;
+                index[next].style.backgroundColor="yellow";
+                count=next;
+            }
+
+            left.onclick=function(){
+                let next=count===sum-1?0:count+1;
+                i[count-1].style.opacity=1;
+                index[count-1].style.backgroundColor="yellow";
+                i[count].style.opacity=0;
+                index[count].style.backgroundColor="white";
+                count=count-1;
+            }
+            let dingshiqi=setInterval(function(){
+                right.onclick()},3800);
+
+           
+         }    
+     </script>
+</head>
+<body>
+	<!-- ***********************top结构******************************************* -->
+       <div id="top" > 
+            <div id="top-font"> 
+         <span class="font"><a href="#">信息公开</a></span>
+         <span class="font"><a href="#">人才招聘</a></span>
+         <span class="font"><a href="#">学校内网</a></span>
+         <span class="font"><a href="#">信息门户</a></span>
+         	</div>
+          	<input type="text" id="search" placeholder="请输入关键字">
+          	 <span class="font-right"><a href="#">网站地图</a></span>
+          	 <span class="font-right"><a href="#">高级搜索</a></span>
+       </div>
+<!-- ***********************top2结构******************************************* -->
+		<div id="top-2">
+    <img src="../../image/bg.jpg" style="position: absolute;left: -200px; width: 100%;">
+			<img src="http://www.wsyu.edu.cn/images/new20170424/index_pic_logoTop2.png" style="position: absolute;top: 50px;">
+
+			 <ul id="daohang" style="z-index: 99999999;">
+     			 <li>
+     				 <span  class="f1"><a href="#">学校概括</a></span>
+             			<div class="er">
+             					  <a href="#">学校简介</a>
+              					  <a href="#">历史沿革</a>
+            					  <a href="#">校徽校训</a>
+             					  <a href="#">现任领导</a>
+             					  <a href="#">历任领导</a>
+             					  <a href="#">历史荣耀</a>
+             					  <a href="#">校园风光</a> 
+               			 </div>
+      		 		</li>
+
+       			  <li>
+       			    <span  class="f1"><a href="#">机构设置</a></span>
+       					 <div class="er">
+       					  <a href="#">教学单位</a>
+						 <a href="#">管理机构</a>
+				        </div>
+       			</li>
+
+
+       			 <li>
+       				 <span  class="f1"><a href="#">师资队伍</a></span>
+       			 			<div class="er">
+       			   			 	 <a href="#">领军人物</a>
+				    			 <a href="#">中青年骨干老师</a>
+							 </div>
+       			 </li>
+
+       			 <li>
+       			 	 <span  class="f1"><a href="#">人才培养</a></span>
+       			 			<div class="er">
+       			 					<a href="#">人才培养目标</a>
+									<a href="#">专业建设</a>
+									<a href="#">教学改革</a>
+									<a href="#">遗留课程</a>
+									<a href="#">实习(训)基地</a>
+									<a href="#">产教融合</a>
+       			            </div>
+       			 </li>
+
+
+
+
+       				   <li>
+       				    <span  class="f1"><a href="#">招生就业</a></span>
+       			 			<div class="er">
+       			 				<a href="#">招生</a>
+								<a href="#">就业</a>
+       				         </div>
+       				   </li>
+       			      <li>
+       			       <span  class="f1"><a href="#">科学研究</a></span>
+       			 			<div class="er">
+       			    	    </div>
+       			      </li>
+     				  <li>
+       				 <span  class="f1"><a href="#">合作交流</a></span>
+       			 			<div class="er">
+       			    	    </div>
+      				 </li>
+       <li>
+          <span  class="f1"><a href="#">文化交流</a></span>
+       			 			<div class="er">
+           					<a href="#">收益印记</a>
+							<a href="#">文华四合院</a>
+							<a href="#">服务信息</a>
+							<a href="#">全景校园</a>
+              </div>
+       </li> 
+
+
+    			</ul>
+		</div>
+
+   <div id="lunbo">
+            <ul id="xc">
+              <li><img src="../../image/11.png"></li>
+              <li><img src="../../image/22.png"></li>
+              <li><img src="../../image/33.png"></li>
+              <li><img src="../../image/44.png"></li>
+              <li><img src="../../image/55.png"></li>
+            </ul> 
+              <span id="left" ><a href="#">&lang;</a></span>
+              <span id="right"><a href="#">&rang;</a></span>
+
+              <div id="index-div">
+              <ul id="index" ">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+              </ul>
+            </div>
+   </div>
+
+
+    <div id="bottom-5">
+          <span id="span1">学校要闻</span>
+          <span id="span2">进入新闻中心</span>
+          <hr style="width: 800px; color: white;height: 1px;">
+          <div id="bottom-5-left" style="height: auto;">
+            <img src="../../image/new_pic.jpg" style="max-width: 400px;">
+            <p style="position: absolute;top: 280px;" class="wen"><a href="#">【时政要闻】中共中央关于党的百年<br>奋斗重大成...</a></p>
+            <p class="wen">中国共产党自一九二一年成立以来，始终把为中国人民<br>谋幸福、为中华民族谋复兴作为自己的初心使命，始终坚<br>持共产主义理想和社会主义信念，团...</p>
+      <div id="zt" >
+             <div id="tu1">
+                <div class="xiao" >23</div>
+                <div class="xiao2" >2021-6</div>
+                   <img class="xiao-under-tu" src="../../image/new_pic2.png">
+                   <p class="wenzi"><a href="#">师生获书香湖北公益...</a></p>
+                   <br>
+                   <p class="wenzi2">近日，2021年书香湖北公益广告创意设计大赛结果公布...</p>
+              </div>
+
+              <div id="tu2">
+                 <div class="xiao" >15</div>
+                <div class="xiao2" >2021-8</div>
+                 <img class="xiao-under-tu" src="../../image/new_pic3.gif">
+                 <p class="wenzi"><a href="#">师生获书香湖北公益...</a></p>
+                   <br>
+                   <p class="wenzi2">近日，2021年书香湖北公益广告创意设计大赛结果公布...</p>
+              </div>
+
+              <div id="tu3">
+                  <div class="xiao" >30</div>
+                <div class="xiao2" >2021-12</div>
+                 <img class="xiao-under-tu" src="../../image/new_pic4.jpg">
+                 <p class="wenzi"><a href="#">师生获书香湖北公益...</a></p>
+                   <br>
+                   <p class="wenzi2">近日，2021年书香湖北公益广告创意设计大赛结果公布...</p>
+              </div>
+        </div>
+        <hr class="Hei">
+    </div>
+
+
+      <div id="bottom-5-right">
+        <span id="span3">媒体聚焦</span>
+        <span style="margin-left: 120px;">更多</span>
+       <!--  <span style="font-size: 15px; color: black;position: absolute;">更多</span> -->
+          <hr class="Hei">
+          <hr style="width:260px">
+            <div id="news">
+          <p><a href="#">[长江网]武昌首义学院一教学成果获<br>中国高等院校市... </a><span class="date">2021-8-23</span></p>
+          
+           <p><a href="#">[湖北电视台·公共新闻]“火场<br>营救”——消防宣传...</a><span class="date">2021-11-14</span></p>
+
+            <p><a href="#">[云上咸宁]119消防日 | 落实消防<br>责任 防范安全风...</a><span class="date">2021-12-09</span></p>
+
+            <p><a href="#">[校友会网]校友会2021中国最好民办<br>大学排名，武昌...</a><span class="date">2021-12-19</span></p>
+
+             <p><a href="#">[楚天都市报]高校秋季运动会，3000<br>余名新生燃情开...</a><span class="date">2021-12-27</span></p>
+           </div> 
+      </div>
+   
+      <div id="hezi"><div id="hezi2"><img id="erwei" src="../../image/erweima.png"  />
+        <p style="color: black;position: absolute;top: 100px; left: 8px;">智慧首义APP</p>
+        </div>
+      </div>
+      
+</body>
+</html>
