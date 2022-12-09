@@ -1,0 +1,43 @@
+#lo{
+	width: 24vw;
+	height: 46vh;
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	background-color: white;
+	opacity: 0.5;
+}
+.type{
+	position: relative;
+	top: 20%;
+	left: 8%;
+	
+}
+.in{
+	width: 80%;
+	height: 3vh;
+	margin-top: 3vh;
+}
+
+body{
+	position: relative;
+	top: 40%;
+	left: 10%;
+	background-image:url('../image/2.jpg');
+	background-repeat: no-repeat;
+}
+
+#submit-box{
+	
+	position: absolute;
+	left: 40%;
+	bottom: 6%;
+	width: 6vw;
+	height: 4vh;
+ 
+}
+#submit-box a{
+	text-decoration: none;
+	margin:15%;
+
+}
