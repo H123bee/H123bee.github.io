@@ -1,0 +1,121 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+#main{
+  height: auto;
+  width: 100%;
+  background-color:floralwhite;   
+   /* background-image:url("https://tse1-mm.cn.bing.net/th/id/OIP-C.YyT4cuS-h8d4fDRUPICIlQHaJ8?w=189&h=254&c=7&r=0&o=5&dpr=1.38&pid=1.7");
+   background-repeat:no-repeat; */
+}
+
+#header{
+    width: 100%;
+    height: 60px;
+    text-align: left;
+    font-style: oblique;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#span-01{
+    margin-left: 8%;
+}
+#lefter{
+       width: 15%;
+       height: auto;
+       background-color:cadetblue;
+       position: fixed;
+}
+#lefter li{
+       list-style:none;
+       display: block;
+       margin-top:30px;
+       text-align: center;
+       width: 100%;
+       height: 50px;
+}
+#lefter li:hover  {
+     background-color: blue;
+     color:white;
+}
+a{
+      text-decoration: none;
+      color: black;
+}
+#u{
+    width:100%;
+    height: 700px;
+    margin-left: -40px;
+}
+#nab{
+    width: 100%;
+    height: auto;
+    /* background-color: green; */
+    background-image:url("https://tse4-mm.cn.bing.net/th/id/OIP-C.cUQUUxOaQ4nwK39mdkTTVAHaQB?w=161&h=350&c=7&r=0&o=5&dpr=1.38&pid=1.7");
+}
+#search{
+    background-image:url("https://pic3.zhimg.com/80/v2-a4280146b87187d84ad02a5a5e727827_720w.jpg?source=1940ef5c");
+    height:80px;
+    width:85%;
+    margin-left: 15%;
+}
+#search input{
+      width:50%;
+      height:25px;
+      margin-left: 25%;
+      margin-top: 1.5%;
+}
+#classify{
+    width: 85%;
+    height: auto;
+    background-color:#f1f1f1;
+    margin-left: 15%;
+}
+.bolder{
+    font-weight: bolder;
+}
+#classify input{
+    width: 5em;
+}
+.goods_box{
+  width: auto;
+  max-height:auto;
+  margin:2em;
+  background-color: white;
+}
+.goods_box img{
+  height: 200px;
+  width: 200px;
+}
+#goods{
+   width:85%;
+   margin-left: 10%;
+   background-color: red;
+}
+.goods_box img:hover{
+   transform: scale(1.2);
+   transition:scale 2s;
+}
+.xq{
+  width: inherit;
+  height: 1.5em;
+  text-align: center;
+}
+.xq   span{
+  text-align: center;
+}
+#goods  .goods_box{
+  float: left;
+}
+#kj{
+  margin-left: 15%;
+}
+#rlogo{
+  height: 1em;
+  width: 1em;
+  font-size: 3em;
+  margin-left:90%;
+  transform:rotate(90deg); 
+  display: block;
+}
