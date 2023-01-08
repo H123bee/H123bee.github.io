@@ -23,7 +23,6 @@ body{
 	position: relative;
 	top: 40%;
 	left: 10%;
-	background-image:url('../image/2.jpg');
 	
 }
 
@@ -51,3 +50,12 @@ body{
 	text-align: center;
 	color: white;
 }
+
+	#he{
+			width: 50%;
+			height: 30vh;
+			background-color: pink;
+			margin-left: 200px;
+			margin-top: -24vh;
+
+		}
