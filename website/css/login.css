@@ -41,3 +41,13 @@ body{
 	margin:15%;
 
 }
+
+#test{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	opacity: 0.5;
+	position: relative;
+	text-align: center;
+	color: white;
+}

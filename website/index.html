@@ -21,26 +21,8 @@
          	<div id="submit-box"> <a href="pages/photo.html" id="submit"><img id="s" src="image/点击_click-tap-two.png" style="width: 3vw;height: 6vh;"></a> </div>   
          </div>
 
-         <div id="test" style="width: 200px;height: 200px;background: blue; opacity: 0.5;position: relative;"></div>
-          <script type="text/javascript">
-             var div=document.querySelector('#test');
-             div.addEventListener('touchstart',function(e){
-                 var f=e.targetTouches;
-                       console.log( f[0].pageX);
-                      console.log( f[0].pageY);
-                this.addEventListener('touchmove',function(e){
-                  var finger=e.targetTouches;
-                     div.style.left=finger[0].pageX-200+'px';
-                       div.style.top=finger[0].pageY-200+'px';
-                          console.log( finger[0].pageX);
-                           console.log( finger[0].pageY);
-                       //  console.log( finger[0]);
-                  });
-                 document.addEventListener('touchend',function(){
-                    
-                 });
-             })
-          </script>
+         <div id="test">用于测试手指拖动</div>
+         
          	
 
 </body>	
