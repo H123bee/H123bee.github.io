@@ -4,22 +4,40 @@
 	<title>Demo</title>
 	<link rel="icon" href="image/芯片_cpu.png">  <!-- 给网页加icon  固定写法 -->
 	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<script src="js/index.js"></script>
 </head>
 <body style="background-color: black; position: relative;top:200px;">
       
          <div id="lo">
           
          	<p class="type"><b>User</b><br>
-         	 <input type="text" name="name" class="in" placeholder="Input UserName">
+         	 <input type="text" name="user" class="in" placeholder="Input UserName">
          	 </p>
          	 <br/>
          	 
          	 <p class="type"><b>Password</b>
          	 <input type="password" class="in" placeholder="Input Password">
          	 </p>
-         	<div id="submit-box"> <a href="pages/photo.html" id="submit"><img src="image/点击_click-tap-two.png" style="width: 3vw;height: 6vh;"></a> </div>
+         	<div id="submit-box"> <a href="pages/photo.html" id="submit"><img id="s" src="image/点击_click-tap-two.png" style="width: 3vw;height: 6vh;"></a> </div>   
          </div>
-        
+
+         <div id="test" style="width: 200px;height: 200px;background: blue; opacity: 0.5;position: relative;"></div>
+          <script type="text/javascript">
+             var div=document.querySelector('#test');
+             div.addEventListener('touchstart',function(e){
+                
+                 document.addEventListener('touchmove',function(e){
+                    var finger=e.targetTouches;
+                      div.style.left=finger[0].pageX+'px';
+                        div.style.top=finger[0].pageY+'px';
+                          console.log( finger[0]);
+                       //  console.log( finger[0]);
+                  });
+                 document.addEventListener('touchend',function(){
+                    
+                 });
+             })
+          </script>
          	
 
 </body>	
