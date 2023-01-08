@@ -25,12 +25,15 @@
           <script type="text/javascript">
              var div=document.querySelector('#test');
              div.addEventListener('touchstart',function(e){
-                
-                 document.addEventListener('touchmove',function(e){
-                    var finger=e.targetTouches;
-                      div.style.left=finger[0].pageX+'px';
-                        div.style.top=finger[0].pageY+'px';
-                          console.log( finger[0]);
+                 var f=e.targetTouches;
+                       console.log( f[0].pageX);
+                      console.log( f[0].pageY);
+                this.addEventListener('touchmove',function(e){
+                  var finger=e.targetTouches;
+                     div.style.left=finger[0].pageX-200+'px';
+                       div.style.top=finger[0].pageY-200+'px';
+                          console.log( finger[0].pageX);
+                           console.log( finger[0].pageY);
                        //  console.log( finger[0]);
                   });
                  document.addEventListener('touchend',function(){
